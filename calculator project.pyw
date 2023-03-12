@@ -36,7 +36,7 @@ def equal_press():
     lbl.after(1300,lbl.destroy)
     btn_clear()'''
     
-    result='syntax error...'
+    result='Syntax Error...'
     input_text.set(result)
     start_time=threading.Timer(2,clear_btn)
     start_time.start()
