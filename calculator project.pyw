@@ -137,7 +137,7 @@ btn_plus.place(x=220,y=240)
 btn_equal=Button(window,text='=',bg='#CD0000',fg='white',padx=17,pady=30,bd='4',command=lambda:equal_press(),activebackground='#991521',activeforeground='black')
 btn_equal.place(x=220,y=290)
 
-window.resizable(0,0)
+
 window.mainloop() 
 
 
